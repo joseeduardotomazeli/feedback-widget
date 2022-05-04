@@ -1,5 +1,7 @@
+import Widget from './components/Widget';
+
 function App() {
-  return <h1>Feedback Widget</h1>;
+  return <Widget />;
 }
 
 export default App;
