@@ -41,6 +41,8 @@ class CreateFeedbackUseCase {
         `<span>Tipo: ${type}</span>`,
         `<br />`,
         `<span>Comentário: ${comment}</span>`,
+        `<br />`,
+        screenshot ? `<img src="${screenshot}" />` : '',
         `</div>`,
       ].join(''),
     });
