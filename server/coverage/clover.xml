@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1652241480311" clover="3.2.0">
-  <project timestamp="1652241480311" name="All files">
-    <metrics statements="50" coveredstatements="50" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2" elements="59" coveredelements="59" complexity="0" loc="50" ncloc="50" packages="1" files="1" classes="1"/>
+<coverage generated="1656815686433" clover="3.2.0">
+  <project timestamp="1656815686433" name="All files">
+    <metrics statements="52" coveredstatements="52" conditionals="9" coveredconditionals="8" methods="2" coveredmethods="2" elements="63" coveredelements="62" complexity="0" loc="52" ncloc="52" packages="1" files="1" classes="1"/>
     <file name="create-feedback-use-case.ts" path="/Users/joseeduardotomazeli/Desktop/Study/feedback-widget/server/src/use-cases/create-feedback-use-case.ts">
-      <metrics statements="50" coveredstatements="50" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2"/>
+      <metrics statements="52" coveredstatements="52" conditionals="9" coveredconditionals="8" methods="2" coveredmethods="2"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
       <line num="3" count="1" type="stmt"/>
@@ -48,12 +48,14 @@
       <line num="42" count="1" type="stmt"/>
       <line num="43" count="1" type="stmt"/>
       <line num="44" count="1" type="stmt"/>
-      <line num="45" count="1" type="stmt"/>
-      <line num="46" count="1" type="stmt"/>
-      <line num="47" count="1" type="stmt"/>
-      <line num="48" count="1" type="stmt"/>
-      <line num="49" count="1" type="stmt"/>
+      <line num="45" count="4" type="cond" truecount="0" falsecount="1"/>
+      <line num="46" count="4" type="stmt"/>
+      <line num="47" count="4" type="stmt"/>
+      <line num="48" count="4" type="stmt"/>
+      <line num="49" count="1" type="cond" truecount="1" falsecount="0"/>
       <line num="50" count="1" type="stmt"/>
+      <line num="51" count="1" type="stmt"/>
+      <line num="52" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

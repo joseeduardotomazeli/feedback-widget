@@ -22,7 +22,7 @@ describe('Create feedback', () => {
     expect(sendFeedbackEmailSpy).toHaveBeenCalled();
   });
 
-  it('should not be able to create a feedback without type', async () => {
+  it('should not be able to create a feedback without a type', async () => {
     await expect(
       createFeedback.execute({
         type: '',
@@ -31,7 +31,7 @@ describe('Create feedback', () => {
     ).rejects.toThrow();
   });
 
-  it('should not be able to create a feedback without comment', async () => {
+  it('should not be able to create a feedback without a comment', async () => {
     await expect(
       createFeedback.execute({
         type: 'BUG',
